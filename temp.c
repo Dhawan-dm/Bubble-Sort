@@ -5,7 +5,7 @@
 void Create_Input(int a[],int n)
 {
 	for(int i =0; i<n; i++){
-		a[i] = n-i;
+		a[i] = rand()% n + 1;
 	}
 	
 }
